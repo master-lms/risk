@@ -1,0 +1,10 @@
+Client/PlanA/Library/
+Client/PlanA/Logs/
+Client/PlanA/Temp/
+
+Client/PlanA/obj/
+
+Client/PlanA/StreamingAssets/
+Client/PlanA/.vs/
+*.csproj
+*.sln
