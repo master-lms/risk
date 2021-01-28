@@ -98,6 +98,6 @@ public abstract class StateMachine
 
     public void StateInstant(string name, StateBase stateBase)
     {
-        states[name] = stateBase;
+        states.Add(name, stateBase);
     }
 }
