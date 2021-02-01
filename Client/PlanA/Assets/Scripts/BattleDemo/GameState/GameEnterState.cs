@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameEnterState : StateBase
+public class GameEnterState : GameStateBase
 {
     public GameEnterState(string name) : base(name)
     {

@@ -18,7 +18,10 @@ public class Main : MonoBehaviour
 
         startGame = new StartGame();
         startGame.Init();
-        startGame.ChangeState("loading", null);
+
+        GameStateParam gameStateParam = new GameStateParam();
+        gameStateParam.sceneName = "Battle";
+        startGame.ChangeState("loading", gameStateParam);
     }
 
     // Update is called once per frame

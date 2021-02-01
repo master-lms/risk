@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameLoadingState : StateBase
+public class GameLoadingState : GameStateBase
 {
     public GameLoadingState(string name) : base(name)
     {
@@ -12,7 +12,8 @@ public class GameLoadingState : StateBase
 
     public override void OnEnter(StateParameter parameters)
     {
-        SceneManager.LoadSceneAsync("Battle");
+        GameStateParam param = (GameStateParam)parameters;
+        SceneManager.LoadSceneAsync(param.sceneName);
     }
     public override void OnExit(string name)
     {

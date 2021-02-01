@@ -2,11 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StateType
-{
-    public const string EEEEEEEEEEE = "";
-}
-
 public class StateParameter
 {
     public string id = "";
