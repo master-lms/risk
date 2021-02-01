@@ -80,7 +80,6 @@ public abstract class StateMachine
         return true;
     }
 
-
     public StateBase GetCurState()
     {
         return curState;

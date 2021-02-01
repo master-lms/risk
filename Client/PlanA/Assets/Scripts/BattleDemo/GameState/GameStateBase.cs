@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameStateParam : StateParameter
 {
     public string sceneName;
+    public string nextState;
 }
 
 public class GameStateBase : StateBase

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class StateBase
 {
-    private string name;
+    protected string name;
 
     public StateBase(string name)
     {
@@ -13,7 +13,7 @@ public abstract class StateBase
 
     public virtual void OnEnter(StateParameter parameters)
     {
-
+        Debug.Log("STETE BASE =" + name);
     }
 
     public virtual bool CanChangeTo(string nextName, StateParameter parameters)

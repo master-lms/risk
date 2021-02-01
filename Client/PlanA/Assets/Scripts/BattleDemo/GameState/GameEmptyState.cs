@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameEnterState : GameStateBase
+public class GameEmptyState : GameStateBase
 {
-    public GameEnterState(string name) : base(name)
+    public GameEmptyState(string name) : base(name)
     {
 
     }
